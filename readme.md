@@ -1,3 +1,22 @@
+# My attempt at the challenge
+
+I have attempted this challenge using Playwright, my test script is in `tests/needle.spec.ts`.
+
+To run my test, once you've got the haystack application running in Docker, as per challenge instructions, run:
+
+```bash
+nvm install # Assumes you have node version manager installed
+npm ci
+npx playwright install-deps
+npx playwright test
+```
+
+![Successful run in Playwright](./success_screenshot.png)
+
+-----
+
+Original challenge readme:
+
 # Needle & Haystack
 
 [![Watch the video](https://img.youtube.com/vi/hOF3COhAol4/maxresdefault.jpg)](https://www.youtube.com/watch?v=hOF3COhAol4)

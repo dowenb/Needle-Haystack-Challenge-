@@ -1,0 +1,14 @@
+{
+  "name": "needle-haystack-challenge-",
+  "version": "1.0.0",
+  "description": "[![Watch the video](https://img.youtube.com/vi/hOF3COhAol4/maxresdefault.jpg)](https://www.youtube.com/watch?v=hOF3COhAol4) This project provides a simple web application to exercise your automation skills by finding the needle in a haystack of dropdown options. The application is containerized using Docker and can be easily deployed using Docker Compose.",
+  "main": "index.js",
+  "scripts": {},
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@playwright/test": "^1.47.2",
+    "@types/node": "^22.7.2"
+  }
+}
